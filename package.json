@@ -1,0 +1,49 @@
+{
+  "name": "battle",
+  "version": "1.0.0",
+  "description": "An HTML5/JS turn-based strategy game kinda",
+  "keywords": [
+    "game development",
+    "gamedev",
+    "video game",
+    "videogame",
+    "game",
+    "turn-based",
+    "turn based",
+    "strategy",
+    "tactics",
+    "roguelike",
+    "rpg",
+    "fantasy"
+  ],
+  "license": "AGPL-3.0+",
+  "author": "@invicticide",
+  "homepage": "https://gitlab.com/invicticide/battle#README",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/invicticide/battle.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/invicticide/battle/issues"
+  },
+  "private": true,
+  "main": "main.js",
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "cli-color": "^1.2.0",
+    "json-schema-to-typescript": "^5.4.0",
+    "rimraf": "^2.6.2",
+    "source-map-support": "^0.5.4"
+  },
+  "scripts": {
+    "build": "node build/build.js",
+    "build-verbose": "node build/build.js --verbose",
+    "build-dry": "node build/build.js --dry-run",
+    "build-debug": "node build/build.js --debug --verbose",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
