@@ -29,14 +29,14 @@
   "private": true,
   "main": "main.js",
   "devDependencies": {
-    "@types/node": "^8.0.28",
-    "typescript": "^2.8.1"
+    "@types/node": "^8.10.40",
+    "typescript": "^2.9.2"
   },
   "dependencies": {
-    "cli-color": "^1.2.0",
-    "json-schema-to-typescript": "^5.4.0",
-    "rimraf": "^2.6.2",
-    "source-map-support": "^0.5.4"
+    "cli-color": "^1.4.0",
+    "json-schema-to-typescript": "^5.7.0",
+    "rimraf": "^2.6.3",
+    "source-map-support": "^0.5.10"
   },
   "scripts": {
     "build": "node build/build.js",
